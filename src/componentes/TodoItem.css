@@ -1,0 +1,42 @@
+/* TodoItem.css */
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 30px;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+    margin-left: 8px;
+  }
+  
+  .btn-add {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+  
+  .btn-add:hover {
+    background-color: #218838; /* Verde oscuro */
+  }
+  
+  .btn-delete {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333; /* Rojo oscuro */
+  }
+  
